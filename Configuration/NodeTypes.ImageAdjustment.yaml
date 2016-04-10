@@ -1,0 +1,11 @@
+'TYPO3.Neos.NodeTypes:ImageMixin':
+  properties:
+    enableLightbox:
+      type: boolean
+      defaultValue: false
+      ui:
+        label: 'Enable Lightbox'
+        reloadIfChanged: false
+        inspector:
+          group: image
+          position: 210
